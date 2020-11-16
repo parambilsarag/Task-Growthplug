@@ -1,0 +1,98 @@
+.input {
+  border-radius: 4px;
+    height: 50px;
+    width: inherit;
+    border: 0px;
+    padding: 14px;
+}
+.validation-error {
+  text-align: initial;
+  color: red
+};
+
+.btn-color {
+  border-color: null;
+}
+
+.btn-rad {
+  border-radius: 0;
+}
+.submit_button {
+  width: 100%;
+  background-color: #0f0f0f; /* Green background */
+  color: rgb(255, 255, 255); /* White text */
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #d0a43f;
+  border-color: null;
+  ;
+}
+
+.title-modal {
+  color: #d0a43f;
+  font-size: 30px;
+    font-weight: 600;
+}
+.btn {
+  border: white;
+  ;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color: #d0a43f;
+  color: #fff;
+  border-color: null;
+  box-shadow: none;
+}
+.appoinment{
+  background:#efe9db;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.spanbody{
+  font-size: 20px;
+}
+.modal-body{
+  line-height: 40px;
+}
+.reg-button{
+  height: 60px;
+  font-size: 20px;
+}
+
+.reg-button:hover{
+background: #a28b4a;
+    color: white;
+    border: 0px;
+}
+.btn-rad{
+  height: 36px;
+  width: 46px;
+  text-align: justify;
+  border-radius: 3px !important;
+}
+.shift{
+  height: 40px !important;
+  width: 70px !important;
+  text-align: justify;
+  border-radius: 3px !important;
+}
+.btn-rad:hover{
+  background: #4393cc;
+    color: white;
+}
+.reg-button:active{
+  background: #a28b4a;
+    color: white;
+    border: 0px;
+}
+.closebtn{
+  font-size: 30px;
+    /* border: 1px solid black; */
+    padding: 1px 10px 0px 10px;
+    border-radius: 50%;
+    font-weight: 600;
+    background: #d0a43f;
+}

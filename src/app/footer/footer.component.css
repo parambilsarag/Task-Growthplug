@@ -1,0 +1,246 @@
+.sec-title{
+  /* text-align: center; */
+  padding-bottom: 20px;
+}
+.inner-box{
+/* box-shadow: 0px 6px 20px 8px rgba(0, 0, 0, 0.2); */
+padding: 10px;
+text-align: justify;
+/* width: 450px; */
+}
+.containerx{
+  padding: 10px 100px 0px 100px;
+
+}
+.step-title{
+  /* text-align: center; */
+}
+.icon{
+  text-align: center;
+
+}
+.keys{
+  /* height: auto;
+  width: 271px; */
+}
+.step-title{
+  padding-top: 20px;
+  color: #bd9e45;
+  font-size: 25px;
+  display: inline-block;
+    /* padding-bottom: 10px; */
+
+}
+.step-title-undername{
+  color: #ababab;
+    font-size: 20px;
+}
+.sec-title{
+  /* background: url(assets/key feature bg.png); */
+  padding-top: 50px;
+}
+/* .inner-box:hover{
+  box-shadow: 0px 6px 20px 8px rgba(0, 0, 0, 0.2);
+} */
+.inner-box p{
+  color: #524f4f;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    display: inline-block;
+}
+.team{
+  background: #23222b;
+  padding-bottom: 30px;
+}
+/* .viewall{
+  width: 150px;
+  background: #bd9e45;
+  height: 52px;
+  font-size: 23px;
+  font-weight: 500;
+  border: 0px;
+  border-radius: 0px;
+} */
+.teams-h1{
+  font-weight: 700;
+  color: white;
+  display: inline-block;
+}
+.p-h6{
+  margin-left: 10px;
+    margin-right: 10px;
+
+}
+.keys{
+  width: 512px;
+  height: 341px;
+}
+.viewall{
+  float: right;
+  font-size: 23px;
+}
+.chat{
+  height: 22px;
+  width: auto;
+}
+.topspan{
+  float: right;
+  padding-top: 20px;
+}
+.newkeys{
+  height: 280px;
+  width: 250px;
+
+}
+.topspandemo{
+  float: left;
+    /* padding-top: 20px; */
+    display: inline-flex;
+}
+.spanchat{
+  margin-top: 20px;
+}
+.next{
+  padding-top: 15px;
+}
+.blogsection{
+  /* padding-bottom: 70px; */
+    padding-top: 30px;
+
+}
+.ultime{
+  list-style-type: none;
+  background: white;
+  line-height: 29px;
+  font-size: 17px;
+  text-align: -webkit-match-parent;
+  /* padding-left: 18%; */
+  height: 250px;
+  /* padding: 13px 9px 10px 10px; */
+  padding-top: 16px;
+  font-weight: 600;
+}
+.icon h3,h4{
+  text-align: justify;
+  font-weight: 600;
+  text-align: right;
+}
+
+.icon h3{
+padding-bottom: 10px;
+font-weight: 600;
+}
+.phone{
+  display: inline-block;
+    float: right;
+    color: white;
+    font-size: 19px;
+    padding-top: 10px;
+}
+.mobile{
+  display: inline-block;
+  float: right;
+  height: 38px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.new-map{
+  padding-top: 3%;
+    padding-bottom: 3%;
+}
+.booknow{
+  width: 150px;
+    background: #ab833c;
+    height: 52px;
+    font-size: 23px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 0px;
+    margin-top: 32%;
+    float: right;
+}
+.footer-p{
+  font-size: 20px;
+  color: white;
+  padding-top: 25px;
+  display: inline-block;
+}
+.spanimg{
+  margin-top: 27px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  /* background-color: #f1f1f1; */
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  /* background-color: dodgerblue; */
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+@media
+  (max-device-width: 1280px)
+  and (orientation: landscape) {
+
+    .containerx{
+      padding: 10px 30px 0px 30px;
+  }
+  .sec-title{
+     padding-top: 0px;
+
+}
+.ultime{
+  list-style-type: none;
+  background: white;
+
+  font-size: 13px;
+  text-align: left;
+  height: 217px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+
+.icon h3{
+  font-size: 20px;
+}
+
+.icon h3 h4 {
+  text-align: justify;
+  font-weight: 600;
+  text-align: right;
+  font-size: 14px;
+}
+.booknow {
+  width: 126px;
+  background: #ab833c;
+  height: 41px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 0px;
+  margin-top: 18%;
+  float: right;
+}
+.flex-item-right {
+  /* background-color: dodgerblue; */
+  padding: 10px;
+  flex: 61%;
+}
+  }

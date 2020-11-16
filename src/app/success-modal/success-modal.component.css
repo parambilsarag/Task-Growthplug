@@ -1,0 +1,25 @@
+.text-center {
+  text-align: "center"
+  }
+
+  .modal-footer{
+    justify-content: center;
+  }
+  .submit_button {
+    background-color: #0f0f0f; /* Green background */
+    color: rgb(255, 255, 255); /* White text */
+    width: 130px;
+    height: 50px;
+    font-size: 18px;
+  }
+.model-msg{
+  background-color: #efe9db;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.great{
+  font-size: 30px !important;
+}
+.app{
+  font-size: 20px !important;
+}

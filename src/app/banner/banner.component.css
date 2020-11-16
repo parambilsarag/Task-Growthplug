@@ -1,0 +1,234 @@
+.sec-title{
+  /* background: url(assets/key feature bg.png); */
+  padding-top: 50px;
+}
+.step-title{
+  padding-top: 20px;
+    /* padding-bottom: 10px; */
+
+}
+.teams-h1{
+  font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #bd9e45;
+    font-size: 50px;
+}
+.cont{
+  padding-bottom: 60px;
+}
+.text-block {
+  position: absolute;
+  bottom: 35%;
+  right: 0px;
+  background-color: #eaeaea;
+  /* color: white; */
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  width: 450px;
+  height: 250px;
+}
+.yelp{
+  height: 60px;
+  width: auto !important;
+  margin-top: 2%;
+}
+.container h4{
+  margin: 26px 10px 20px 11px;
+    font-size: 22px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered h1{
+font-size: 67px;
+    font-weight: 700;
+    color: white;
+}
+.centered h2{
+  font-size: 30px;
+      font-weight: 700;
+      color: white;
+      text-align: -webkit-center;
+  }
+
+  .front-img{
+    filter: blur(1.5px);
+    height: 850px;
+  }
+  .top-right {
+    position: absolute;
+    top: 11%;
+    right: 3%;
+    font-size: 25px;
+    color: white;
+
+  }
+.top-right-phone{
+  position: absolute;
+  top: 10%;
+  right: 11%;
+}
+.phoneleft{
+  height: 60px;
+  width: 60px !important;
+}
+.owl-carousel  .front-img{
+  height: 800px;
+}
+.menu-list{
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+}
+
+.ul-list{
+   display: flex;
+  list-style-type: none;
+  margin-top: 0px;
+  font-size: 23px;
+  color: white;
+  background: rgb(246 244 251 / 8%);
+}
+.list-menu-li{
+  width: 220px;
+    text-align: center;
+}
+
+.listalone{
+  padding-top: 25px;
+  font-size: 18px;
+  /* border-right: 2px solid #777272; */
+}
+.containerx .menu-demo{
+  text-align: right;
+  right: 30px;
+  top: 20%;
+
+}
+.containerx .menu-demo .phone-logo{
+  height: 60px;
+    width: 60px;
+}
+ .listalone-sec{
+  margin-top: 5%;
+  text-align: left !important;
+ }
+.book-now{
+  /* background: #bd9e45;
+  border: 0px;
+  width: 250px; */
+}
+.logo{
+  height: 80px !important;
+}
+.border-ex{
+  border-right: 1px solid #777272;
+}
+.buttonlist{
+  background: #bd9e45;
+  width: 500px;
+
+}
+.book-now{
+  width: 500px;
+background: #bd9e45;
+    border: 0px;
+    font-size: 20px;
+  }
+
+    .classd {
+      top: 10%;
+      text-align: right;
+      /* left: 0%; */
+      right: 140px;
+    }
+
+    .classd h4{
+      display: inline-block;
+      font-size: 24px;
+    color: white;
+    }
+.classd img{
+  width: 50px;
+}
+.listalone-ex a{
+  color: white;
+}
+.border-ex a{
+  color: white;
+}
+.border-ey a{
+  color: white;
+}
+.invalid{
+  /* background: white;
+    width: 300px;
+    margin-left: -40px; */
+}
+.list-menu-li:hover{
+  border-bottom: 3px solid #bd9e45;
+}
+/* .border-ex:hover{
+  border-bottom: 3px solid #bd9e45;
+} */
+@media
+  (max-device-width: 1280px)
+  and (orientation: landscape) {
+    .classd {
+      top: 15%;
+      text-align: right;
+      right: 42px;
+  }
+  .text-block{
+    width: 265px;
+    height: auto;
+    bottom: 17%;
+      padding-left: 0px;
+    padding-right: 0px;
+   }
+   .centered h1{
+    font-size: 35px;
+   }
+   .container h4{
+
+    font-size: 17px;
+   }
+   .centered h2{
+    font-size: 17px;
+  }
+  .front-img{
+
+    height: auto;
+}
+.yelp {
+  height: 44px;
+
+  margin-top: 1%;
+}
+.classd h4 {
+  font-size: 17px;
+}
+.classd img {
+  width: 33px;
+}
+.ul-list{
+  height: 55px;
+}
+.listalone{
+  padding-top: 18px;
+  font-size: 14px;
+}
+.logo {
+  height: 60px !important;
+}
+.book-now {
+  width: 400px;
+  font-size: 14px;
+}
+}

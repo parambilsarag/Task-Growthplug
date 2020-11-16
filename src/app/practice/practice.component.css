@@ -1,0 +1,29 @@
+.sec-title{
+  /* background: url(assets/key feature bg.png); */
+  padding-top: 50px;
+}
+.step-title{
+  padding-top: 20px;
+    /* padding-bottom: 10px; */
+
+}
+.teams-h1{
+  font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #bd9e45;
+    font-size: 55px;
+}
+.cont{
+  padding-bottom: 60px;
+}
+@media
+  (max-device-width: 1280px)
+  and (orientation: landscape) {
+    .sec-title{
+       padding-top: 20px;
+  }
+  .teams-h1{
+    font-size: 40px;
+}
+  }

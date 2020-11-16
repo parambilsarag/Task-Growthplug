@@ -1,0 +1,128 @@
+
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+  <style>
+  body {
+      font-family: 'Abel';
+  }
+  </style>
+  </head>
+
+<body>
+
+<div class="appoinment">
+  <form [formGroup]="appointmentForm">
+    <div class="modal-header">
+      <h4 class="modal-title pull-left title-modal">Book an Appointment</h4>
+      <button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+        <span class="closebtn" aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="form-group modal-body">
+      <div class="row">
+        <div class="col-6">
+          <input class="input mr-3" formControlName="firstName" required type="text" placeholder="First Name" />
+          <div *ngIf="
+            appointmentForm.controls.firstName.invalid &&
+            (appointmentForm.controls.firstName.dirty ||
+              appointmentForm.controls.firstName.touched)
+          " class="validation-error">
+            <div *ngIf="appointmentForm.controls.firstName.errors.required">
+              *First Name is required.
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <input class="input mr-3" formControlName="lastName" required type="text" placeholder="Last Name" />
+          <div *ngIf="
+            appointmentForm.controls.lastName.invalid &&
+            (appointmentForm.controls.lastName.dirty ||
+              appointmentForm.controls.lastName.touched)
+          " class="validation-error">
+            <div *ngIf="appointmentForm.controls.lastName.errors.required">
+              *Last Name is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <div class="row">
+        <div class="col-6">
+          <input class="input mr-3" formControlName="email" required type="text" placeholder="Email" />
+          <div *ngIf="
+            appointmentForm.controls.email.invalid &&
+            (appointmentForm.controls.email.dirty ||
+              appointmentForm.controls.email.touched)
+          " class="validation-error">
+            <div *ngIf="appointmentForm.controls.email.errors.required">
+              *Email is required.
+            </div>
+            <div *ngIf="appointmentForm.controls.email.errors.email">
+              *Email must be a valid email address.
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <input class="input mr-3" formControlName="phoneNumber" required type="number" placeholder="Phone" />
+          <div *ngIf="
+            appointmentForm.controls.phoneNumber.invalid &&
+            (appointmentForm.controls.phoneNumber.dirty ||
+              appointmentForm.controls.phoneNumber.touched)
+          " class="validation-error">
+            <div *ngIf="appointmentForm.controls.phoneNumber.errors.required">
+              *Phone number is required.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="modal-body">
+    <div>
+      <span class="spanbody"><b>Select Day </b> (You can select multiple days)</span>
+    </div>
+    <div class="btn-group">
+      <label class="btn btn-primary btn-rad btn-color mr-3" [(ngModel)]="days.mon" btnCheckbox tabindex="0"
+        role="button">Mon</label>
+      <label class="btn btn-primary btn-rad btn-color mr-3" [(ngModel)]="days.tue" btnCheckbox tabindex="0"
+        role="button">Tue</label>
+      <label class="btn btn-primary btn-rad btn-color mr-3" [(ngModel)]="days.wed" btnCheckbox tabindex="0"
+        role="button">Wed</label>
+      <label class="btn btn-primary btn-rad btn-color mr-3" [(ngModel)]="days.thu" btnCheckbox tabindex="0"
+        role="button">Thu</label>
+      <label class="btn btn-primary btn-rad btn-color mr-3" [(ngModel)]="days.fri" btnCheckbox tabindex="0"
+        role="button">Fri</label>
+      <label class="btn btn-primary btn-rad btn-color mr-3" [(ngModel)]="days.sat" btnCheckbox tabindex="0"
+        role="button">Sat</label>
+    </div>
+    <div *ngIf="!isDaysSelected">
+      <span class="validation-error">*Select any day</span>
+    </div>
+  </div>
+  <div class="modal-body">
+    <div>
+      <span class="spanbody"><b>Select Time </b> (You can select multiple periods)</span>
+    </div>
+    <div class="btn-group">
+      <label class="btn btn-primary btn-rad btn-color mr-3 shift" [(ngModel)]="time.morning" btnCheckbox tabindex="0"
+        role="button">Monrning</label>
+      <label class="btn btn-primary btn-rad btn-color mr-3 shift" [(ngModel)]="time.afternoon" btnCheckbox tabindex="0"
+        role="button">Afternoon</label>
+      <label class="btn btn-primary btn-rad btn-color mr-3 shift" [(ngModel)]="time.evening" btnCheckbox tabindex="0"
+        role="button">Evening</label>
+    </div>
+    <div *ngIf="!isTimesSelected">
+      <span class="validation-error">*Select any time</span>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default submit_button reg-button" (click)="requestAppointment()">
+      <b>Request an Appointment</b>
+    </button>
+  </div>
+
+
+</div>
+</body>
